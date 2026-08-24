@@ -131,3 +131,21 @@ Every resource should answer one of these questions:
 - What assignment requires this?
 - Which section should I read?
 - What evidence should I be able to produce afterward?
+
+## Toolsmithing Resource Principle
+
+For personal tooling and environment engineering, prefer learning the underlying interfaces and primitives rather than collecting productivity applications.
+
+Useful source categories include:
+
+- shell and command interpreter documentation
+- operating-system APIs
+- tracing and observability facilities
+- debugger and profiler documentation
+- structured logging and telemetry systems
+- CLI / TUI design references
+- package and environment-management documentation
+- remote administration protocols and tools
+- build-system internals
+
+Existing professional tools should often be studied as examples of what information is useful and how mature systems expose it.

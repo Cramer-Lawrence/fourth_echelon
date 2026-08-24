@@ -1,6 +1,10 @@
 # Near-Term Challenge Sequence
 
-This sequence is intentionally cumulative.
+## Phase 1 — Learn to See the Machine
+
+The opening sequence is intentionally cumulative.
+
+The purpose is not simply to cover a list of systems topics. It is to begin teaching the student how to expose hidden behavior, collect evidence, and turn understanding into useful capability.
 
 Challenge 01 already exists in full under `challenges/`.
 
@@ -15,6 +19,8 @@ Foundation:
 ```
 
 Primary concepts include translation units, compilation, object files, symbols, linking, unresolved externals, DUMPBIN, and the MSVC toolchain.
+
+The deeper purpose is to stop treating "the build" as a single opaque operation.
 
 ## Challenge 02 — What Did My Program Actually Do?
 
@@ -48,6 +54,8 @@ Bridge:
 Process → Filesystem → Tooling
 ```
 
+This is the first deliberate step toward the toolsmithing track.
+
 ## Challenge 04 — Prove a File Hasn't Changed
 
 **Modes:** Build + Defend
@@ -79,6 +87,8 @@ Bridge:
 ```text
 Processes → OS APIs → Defensive Tooling
 ```
+
+This should remain a primitive first version. Future challenges may revisit it with process history, ancestry, networking, signatures, remote operation, or event correlation.
 
 ## Challenge 06 — Two Programs Need to Talk
 
@@ -116,7 +126,7 @@ The network traffic contains data that should not be visible to an observer.
 
 Research the required security properties.
 
-Do not jump directly to “encrypt it.” Ask whether the system needs confidentiality, integrity, authentication, replay protection, key exchange, and key storage.
+Do not jump directly to "encrypt it." Ask whether the system needs confidentiality, integrity, authentication, replay protection, key exchange, and key storage.
 
 Bridge:
 
@@ -124,8 +134,47 @@ Bridge:
 Packets → Threat Model → Cryptography → TLS Concepts
 ```
 
+## First Synthesis Window
+
+After Challenge 08, do not automatically move to the next unrelated topic.
+
+Consider a synthesis challenge that asks the student to make one earlier capability substantially more useful using whatever has been learned so far.
+
+The exact output should not be predetermined.
+
+Possible directions might involve combining file inventory with integrity, enriching process inspection, improving the command-line environment, or connecting local and network observations.
+
+The student's choice is part of the assessment.
+
 ## Intent
 
 By Challenge 08, earlier material should still matter.
 
 The student should experience one growing system of knowledge rather than unrelated lessons.
+
+The opening arc should establish several habits:
+
+- expose hidden behavior
+- collect evidence
+- ask which layer owns a result
+- build small useful tools
+- question trust boundaries
+- revisit old work when new knowledge creates leverage
+
+Later sequences should continue this pattern while introducing algorithms, data structures, architecture, concurrency, databases, mathematics, advanced security, distributed systems, and deeper environment engineering.
+
+## Cross-Cutting Expectations for Phase 1
+
+The early phase remains primarily manual implementation. AI should not write challenge code.
+
+Testing and measurement should begin modestly rather than turning Challenge 01 into a testing course. As soon as a challenge makes a claim that can be automated or quantified, require appropriate evidence.
+
+The student should progressively learn to distinguish:
+
+- observation from inference
+- reproduction from anecdote
+- baseline from after-the-fact measurement
+- profiling from guessing
+- a passing example from automated regression coverage
+
+The first synthesis window is a natural point to ask which early capability deserves better testing, instrumentation, measurement, or visualization.

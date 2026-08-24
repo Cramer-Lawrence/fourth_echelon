@@ -13,6 +13,7 @@ Do not reveal the hidden lesson if discovery is part of the assignment.
 - Debug
 - Defend
 - Research
+- Integrate / Extend
 
 ## Known Information
 
@@ -34,6 +35,20 @@ What must the student accomplish?
 
 Do not provide implementation code.
 
+## Verification Plan
+
+If the challenge makes a correctness, performance, reliability, security, or root-cause claim, how will the student prove or disprove it?
+
+Consider:
+
+- reproducible workload / failure case
+- automated tests
+- baseline
+- benchmark methodology
+- profiler / trace / instrumentation
+- relevant metrics
+- regression protection
+
 ## Evidence to Collect
 
 Examples:
@@ -47,9 +62,25 @@ Examples:
 - symbol table
 - measurements
 
+## Measurement / Results
+
+When applicable, record before/after results, variability, tradeoffs, and remaining uncertainty.
+
 ## Questions to Answer
 
 Focus on reasoning and proof.
+
+## Leverage Question
+
+If appropriate, what part of this capability might be worth automating, preserving, extending, composing, or integrating later?
+
+It is acceptable for the answer to be "none yet."
+
+## AI Policy for This Challenge
+
+Default: AI may teach, research, review, and challenge reasoning but may not write the implementation.
+
+If selective AI generation is explicitly permitted for an advanced challenge, state the allowed scope and required validation here.
 
 ## Stretch Questions
 
@@ -65,8 +96,8 @@ List concepts after the challenge if revealing them beforehand would spoil disco
 
 ## Builds On
 
-Earlier challenges / concepts.
+Earlier challenges / concepts / capabilities.
 
 ## Opens Into
 
-Future concepts.
+Future concepts / capabilities.
