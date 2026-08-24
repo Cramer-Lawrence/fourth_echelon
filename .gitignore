@@ -1,0 +1,9 @@
+# Ignore Specific Files
+
+# Ignore a whole Directory (always end with a slash)
+
+# Ignore all files ending with a specific extension
+*.exe
+*.ilk
+*.obj
+*.pdb
