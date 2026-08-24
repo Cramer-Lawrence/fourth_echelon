@@ -264,7 +264,24 @@ Introduced when single-machine understanding is strong enough to make the tradeo
 - distributed builds and compute
 
 
-## N. Testing, Measurement, and Performance Engineering
+## N. Programming Language Mastery and Tool Selection
+
+- deep modern C++
+- Rust systems/infrastructure proficiency
+- Python automation and investigative tooling
+- PowerShell Windows systems automation
+- SQL and data-query fluency
+- TypeScript/JavaScript for tool interfaces and web boundaries
+- C and assembly as low-level literacy
+- Bash/shell fluency
+- language/runtime tradeoff analysis
+- comparative implementations and measured tool selection
+- interoperability / FFI
+- recognizing when an existing tool or pipeline is better than a new program
+
+See `12_PROGRAMMING_LANGUAGE_MASTERY.md`.
+
+## O. Testing, Measurement, and Performance Engineering
 
 - test design and testability
 - unit / integration / system / regression testing
@@ -281,7 +298,7 @@ Introduced when single-machine understanding is strong enough to make the tradeo
 - performance budgets and regression gates
 - documenting baselines, methodology, results, and tradeoffs
 
-## O. AI-Augmented Engineering and Computing Frontier
+## P. AI-Augmented Engineering and Computing Frontier
 
 - strengths and failure modes of code-generating AI
 - reviewing and validating generated code
@@ -508,6 +525,45 @@ measure against current practice
 adopt / monitor / ignore
     ↓
 revisit as the field changes
+```
+
+
+## 11. Language and Tool Judgment
+
+```text
+follow prescribed language
+    ↓
+write idiomatic code in several languages
+    ↓
+understand runtime / memory / concurrency tradeoffs
+    ↓
+compare implementations with evidence
+    ↓
+choose language from constraints
+    ↓
+compose languages, OS tools, databases, and scripts
+    ↓
+select the smallest correct tool for the problem
+```
+
+## 12. Cross-Representation Technical Literacy
+
+```text
+read source
+    ↓
+read compiler/linker output
+    ↓
+read symbols and binaries
+    ↓
+read assembly / registers / memory
+    ↓
+read process and OS traces
+    ↓
+read packets and protocol state
+    ↓
+read profiles / hardware counters
+    ↓
+correlate evidence across layers
 ```
 
 # Part III — Increasing Levels of Depth

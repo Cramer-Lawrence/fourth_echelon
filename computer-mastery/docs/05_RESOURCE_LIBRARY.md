@@ -4,122 +4,136 @@ The curriculum should use the best source for the concept rather than following 
 
 Prefer:
 
-1. primary documentation
-2. respected open textbooks
-3. university courses
-4. standards / RFCs
-5. source code
+1. primary documentation and specifications
+2. source code
+3. respected open textbooks
+4. university open courseware
+5. standards / RFCs
 6. high-quality technical writing
 
-## Computing Environment / Tooling
+For the nightly reading spine, prefer resources whose text/source is freely available and openly licensed. See `15_NIGHTLY_READING_PROGRAM.md`.
+
+## Verified Open Core Library
+
+### Introduction to Computer Systems — XJTU ICS
+
+https://xjtu-ics.github.io/textbook/
+
+Actively maintained systems textbook; CC BY-SA 4.0 with source available on GitHub. Covers program construction, machine representation, architecture, assembly, linking, memory, and systems interfaces.
+
+### Computer Organization — OpenALG / University System of Georgia
+
+https://alg.manifoldapp.org/projects/computer-organization
+
+CC BY 4.0 open textbook covering digital logic through assembly, pipelines, memory, and virtual memory.
+
+### Open Data Structures
+
+https://opendatastructures.org/
+
+Free/open textbook and source; CC BY. Includes pseudocode, Python, Java, and C++ variants.
+
+### Mathematics for Computer Science — MIT OCW
+
+https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/readings/
+
+Open course/textbook material; textbook CC BY-SA.
+
+### xv6 RISC-V Book and Source
+
+https://github.com/mit-pdos/xv6-riscv-book
+https://github.com/mit-pdos/xv6-riscv
+
+MIT-licensed teaching OS and book source.
+
+### Computer Networking: Principles, Protocols and Practice
+
+https://beta.computer-networking.info/
+https://github.com/cnp3/ebook
+
+Open networking textbook with Creative Commons licensing.
+
+### Performance Analysis and Tuning on Modern CPUs
+
+https://github.com/dendibakh/perf-book
+
+CC0 performance-engineering book.
+
+### C++ Core Guidelines
+
+https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+https://github.com/isocpp/CppCoreGuidelines
+
+Living open guidelines for modern C++ design and engineering.
+
+### The Rust Programming Language
+
+https://doc.rust-lang.org/stable/book/
+https://github.com/rust-lang/book
+
+Official Rust book; source MIT/Apache-2.0.
+
+### Python Documentation / CPython Source
+
+https://docs.python.org/3/
+https://github.com/python/cpython
+
+Official documentation and implementation source under the PSF license.
+
+### PowerShell Documentation
+
+https://learn.microsoft.com/powershell/
+https://github.com/MicrosoftDocs/PowerShell-Docs
+
+Official documentation source; Creative Commons documentation license and MIT repository code.
 
 ### The Missing Semester of Your CS Education
 
 https://missing.csail.mit.edu/
+https://github.com/missing-semester/missing-semester
 
-Free MIT material on shell usage, command-line environment, development tools, debugging, profiling, Git, automation, configuration, and personal computing workflows.
+CC BY-NC-SA course on shell/tooling/environment fluency, Git, debugging/profiling, and security.
 
-## Operating Systems
+### Pro Git
 
-### Operating Systems: Three Easy Pieces (OSTEP)
+https://git-scm.com/book/en/v2
+https://github.com/progit/progit2
 
-https://pages.cs.wisc.edu/~remzi/OSTEP/
+Open-source Git book under Creative Commons licensing.
 
-Free online textbook covering virtualization, processes, CPU scheduling, virtual memory, concurrency, filesystems, persistence, and security topics.
+### Linux Kernel Documentation and Source
 
-### MIT Operating System Engineering
+https://docs.kernel.org/
+https://github.com/torvalds/linux
 
-https://pdos.csail.mit.edu/6.1810/
+Primary open-source material for kernel APIs, locking, tracing, testing, fault injection, build systems, architecture, and internals.
 
-Hands-on operating systems course using xv6.
+### OWASP Cheat Sheet Series
 
-## Algorithms
+https://cheatsheetseries.owasp.org/
+https://github.com/OWASP/CheatSheetSeries
 
-### MIT 6.006 — Introduction to Algorithms
+CC BY-SA security guidance for builders and defenders.
 
-https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/
+### OpenSSF Developing Secure Software
 
-Useful for rigorous algorithmic reasoning.
+https://github.com/ossf/secure-sw-dev-fundamentals
 
-## Systems / Security Foundations
+CC BY secure-software-development course source.
 
-### OpenSecurityTraining2
+## Professional Primary References
 
-https://opensecuritytraining.info/
+Some challenge-specific references may be free professional documentation rather than part of the open nightly reading spine.
 
-Strong bridge between architecture, assembly, operating systems, binaries, reverse engineering, and security.
+Examples:
 
-### pwn.college
+- Microsoft C++ build and linker documentation
+- Sysinternals documentation
+- Wireshark documentation
+- platform SDK documentation
+- RFCs and standards
 
-https://pwn.college/
-
-Hands-on security learning in controlled environments.
-
-Use only authorized labs and systems.
-
-## Networking
-
-### Beej's Guide to Network Programming
-
-https://beej.us/guide/bgnet/
-
-Sockets and network programming.
-
-### Beej's Guide to Networking Concepts
-
-https://beej.us/guide/bgnet0/
-
-Networking fundamentals.
-
-### Wireshark User's Guide
-
-https://www.wireshark.org/docs/wsug_html_chunked/
-
-Packet capture and analysis.
-
-## Windows / MSVC / System Inspection
-
-### Microsoft C++ Build Documentation
-
-https://learn.microsoft.com/en-us/cpp/build/
-
-### Sysinternals
-
-https://learn.microsoft.com/en-us/sysinternals/
-
-Important tools include Process Explorer, Process Monitor, TCPView, Autoruns, VMMap, and RAMMap.
-
-## Cryptography
-
-### Crypto 101
-
-https://www.crypto101.io/
-
-Covers hashes, MACs, stream and block ciphers, public-key cryptography, key agreement, signatures, and TLS concepts.
-
-### CryptoHack
-
-https://cryptohack.org/
-
-Interactive cryptography exercises.
-
-## Web / Application Security
-
-### PortSwigger Web Security Academy
-
-https://portswigger.net/web-security
-
-Free interactive labs.
-
-### OWASP
-
-https://owasp.org/
-
-Important references include the OWASP Top 10, Web Security Testing Guide, Cheat Sheet Series, and ASVS.
-
-## Future Resource Categories
-
-Add high-quality materials for computer architecture, compilers, databases, distributed systems, formal methods, reverse engineering, forensics, incident response, performance engineering, graphics / GPU architecture, Linux internals, and Windows internals.
+These should be used when they are the authoritative reference for an active engineering problem.
 
 ## Resource Rule
 
@@ -132,20 +146,10 @@ Every resource should answer one of these questions:
 - Which section should I read?
 - What evidence should I be able to produce afterward?
 
-## Toolsmithing Resource Principle
+## Source-Code Reading
 
-For personal tooling and environment engineering, prefer learning the underlying interfaces and primitives rather than collecting productivity applications.
+At advanced levels, source code itself becomes reading material.
 
-Useful source categories include:
+Read mature open-source systems with a specific question in mind. Examples may include compilers, kernels, runtimes, databases, cryptographic libraries, debuggers, profilers, build tools, networking stacks, and developer utilities.
 
-- shell and command interpreter documentation
-- operating-system APIs
-- tracing and observability facilities
-- debugger and profiler documentation
-- structured logging and telemetry systems
-- CLI / TUI design references
-- package and environment-management documentation
-- remote administration protocols and tools
-- build-system internals
-
-Existing professional tools should often be studied as examples of what information is useful and how mature systems expose it.
+Do not attempt to "read a repository" front-to-back. Trace a behavior, interface, bug, or design decision through the code.

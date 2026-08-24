@@ -95,3 +95,10 @@ Use `docs/07_PROJECT_CONTEXT_FOR_CHATGPT.md` as persistent context for the ChatG
 
 - `docs/10_EVIDENCE_ENGINEERING.md` — testing, profiling, benchmarking, instrumentation, reproducibility, and proving engineering claims
 - `docs/11_AI_AND_LIVING_EDGE.md` — AI delegation policy, deliberate AI fault injection, comprehension debt, and keeping the curriculum current
+
+## Final Curriculum Spine
+
+- `docs/12_PROGRAMMING_LANGUAGE_MASTERY.md` — deep proficiency across complementary languages and evidence-based tool selection
+- `docs/13_TECHNICAL_LITERACY_ACROSS_REPRESENTATIONS.md` — learning to read source, symbols, assembly, memory, traces, packets, logs, and machine evidence as connected representations
+- `docs/14_LONG_TERM_CURRICULUM.md` — capability-based multi-year execution plan
+- `docs/15_NIGHTLY_READING_PROGRAM.md` — ~15-minute nightly reading spine using free/open resources

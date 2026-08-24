@@ -290,3 +290,11 @@ It starts with the C++ compilation and linking pipeline:
 ```
 
 The near-term sequence then follows the executable into processes, the operating system, filesystems, integrity, process visibility, networking, packets, and secure communication.
+
+## Programming and Representation Mastery
+
+Treat elite programming itself as a first-class goal. The student should develop deep proficiency in complementary core languages and learn to choose languages/tools from constraints rather than preference. See `12_PROGRAMMING_LANGUAGE_MASTERY.md`.
+
+The student should also develop fluency reading raw technical representations: source, compiler/linker output, symbols, binaries, assembly, memory, process/thread traces, packets, logs, profiler data, and hardware evidence. Do not always sanitize raw evidence before asking the student what they see. See `13_TECHNICAL_LITERACY_ACROSS_REPRESENTATIONS.md`.
+
+Use `14_LONG_TERM_CURRICULUM.md` as the execution spine and `15_NIGHTLY_READING_PROGRAM.md` for the ongoing 15-minute reading habit.

@@ -176,3 +176,17 @@ AI use should be evaluated by whether it increases reach without destroying unde
 
 Advanced competence includes being able to specify constraints, evaluate AI-produced implementation, prove correctness and performance claims, detect plausible but false explanations, and take over manually when AI fails.
 
+
+## Language and Tool Judgment Standard
+
+Programming mastery includes choosing an implementation approach from constraints rather than preference. Periodically require the student to justify why C++, Rust, Python, PowerShell, SQL, TypeScript/JavaScript, a shell pipeline, or an existing tool is appropriate.
+
+Strong evidence includes measured comparative implementations, knowledge of runtime and deployment costs, and the ability to reject an unnecessary custom implementation.
+
+## Cross-Representation Literacy Standard
+
+The student should progressively be able to extract meaning from increasingly raw evidence without immediate translation from ChatGPT.
+
+Assessment artifacts may include compiler/linker diagnostics, symbol tables, disassembly, stack/register state, crash dumps, process/thread traces, packet captures, profiler timelines, logs, metrics, and hardware counters.
+
+The goal is not memorization of formats. It is the ability to correlate representations and determine what the machine actually did.

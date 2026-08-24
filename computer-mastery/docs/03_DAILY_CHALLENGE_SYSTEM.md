@@ -227,3 +227,21 @@ A challenge is complete when the student can explain and support the result, not
 Challenges should gradually become more ambiguous, cross-disciplinary, realistic, less guided, and more open-ended.
 
 Eventually, the student should routinely choose the language, tools, architecture, evidence, debugging strategy, and sometimes the problem itself.
+
+## Tool-Choice Progression
+
+Early challenges may prescribe a language when the language itself is part of the lesson. As the student becomes stronger, implementation choice should increasingly become part of the exercise.
+
+Ask what constraints justify C++, Rust, Python, PowerShell, SQL, TypeScript/JavaScript, shell composition, or an existing professional tool.
+
+Do not reward unnecessary implementation complexity. Sometimes the most elite answer is the smallest composition of existing primitives.
+
+## Raw-Evidence Progression
+
+Do not permanently protect the student behind summaries and friendly dashboards. Increase exposure to real compiler output, linker diagnostics, symbols, assembly, memory state, traces, packets, logs, profiler timelines, and other raw evidence.
+
+At appropriate stages, present the evidence first and ask:
+
+> What do you see?
+
+Technical pattern recognition is a trainable capability.

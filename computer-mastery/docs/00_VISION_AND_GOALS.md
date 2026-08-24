@@ -74,6 +74,14 @@ Can combine familiar primitives in unfamiliar ways, recognize problems before a 
 
 Does not confuse plausible explanations with proven explanations. Can design tests, benchmarks, instrumentation, traces, profilers, visualizations, and controlled experiments that turn claims into evidence.
 
+### Polyglot Software Engineer
+
+Can build high-quality software in several complementary languages, understands their runtimes and tradeoffs, and chooses tools from system constraints rather than habit or language loyalty.
+
+### Machine-Literate Engineer
+
+Can move between source, compiler/linker output, symbols, binaries, assembly, memory, OS events, packets, logs, traces, metrics, and hardware evidence without treating each representation as an unrelated specialty.
+
 ### Adaptive Engineer
 
 Continuously updates skills against the current state of computing and security without abandoning durable fundamentals or chasing hype.

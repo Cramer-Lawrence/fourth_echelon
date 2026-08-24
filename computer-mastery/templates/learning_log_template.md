@@ -41,3 +41,11 @@ What did AI assist with? Did it replace any understanding I should own?
 ## Evidence / Links
 
 ## Time Spent
+
+## Tool / Language Decision
+
+What implementation/tooling choice did I make, what constraints drove it, and would I choose differently now?
+
+## Raw Evidence I Learned to Read
+
+What log, trace, symbol table, packet, disassembly, profiler view, memory state, or other representation became more legible during this challenge?

@@ -35,6 +35,12 @@ What must the student accomplish?
 
 Do not provide implementation code.
 
+## Tool / Language Choice
+
+If the implementation method is not intentionally prescribed for learning reasons, require the student to choose and justify the smallest appropriate tool: language, shell pipeline, SQL, existing utility, library, or combination.
+
+The justification should be based on constraints rather than preference.
+
 ## Verification Plan
 
 If the challenge makes a correctness, performance, reliability, security, or root-cause claim, how will the student prove or disprove it?
@@ -61,6 +67,10 @@ Examples:
 - packet capture
 - symbol table
 - measurements
+
+## Raw Evidence / Representation
+
+When useful, identify which unsanitized representation the student should learn to read directly: compiler/linker output, symbols, disassembly, memory/register state, process/thread traces, packets, logs, profiles, metrics, hardware counters, or similar evidence.
 
 ## Measurement / Results
 
