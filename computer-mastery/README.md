@@ -91,6 +91,12 @@ Start with `docs/00_VISION_AND_GOALS.md`, then `docs/02_CURRICULUM_MAP.md`.
 
 Use `docs/07_PROJECT_CONTEXT_FOR_CHATGPT.md` as persistent context for the ChatGPT project.
 
+## Current Challenge
+
+- Challenge 01 — **Completed 2026-08-25**
+- Challenge 02 — **What Did My Program Actually Do?** — active next assignment in `challenges/Challenge_02_What_Did_My_Program_Actually_Do.md`
+
+
 ## Additional Core Documents
 
 - `docs/10_EVIDENCE_ENGINEERING.md` — testing, profiling, benchmarking, instrumentation, reproducibility, and proving engineering claims

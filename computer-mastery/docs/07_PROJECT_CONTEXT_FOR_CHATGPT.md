@@ -279,17 +279,21 @@ A concept should eventually be tested by whether the student can:
 
 ## Current Starting Arc
 
-Challenge 01 begins the first major arc:
+Challenge 01 began the first major arc and was completed on 2026-08-25 with a **Solid** first-pass assessment. Challenge 02 is now active: `challenges/Challenge_02_What_Did_My_Program_Actually_Do.md`.
+
+The arc is:
 
 **Learn to See the Machine**
 
-It starts with the C++ compilation and linking pipeline:
+It started with the C++ compilation and linking pipeline:
 
 ```text
 .cpp → object files → symbols → linker → executable
 ```
 
 The near-term sequence then follows the executable into processes, the operating system, filesystems, integrity, process visibility, networking, packets, and secure communication.
+
+Current demonstrated capability from Challenge 01 includes manually separating compilation/linking, inspecting COFF symbols, correlating `UNDEF` references with linker diagnostics, understanding mangled symbols as exact linker identities, and tracing a C++ member call into generated assembly. Treat these as usable foundations, not permanently mastered topics.
 
 ## Programming and Representation Mastery
 

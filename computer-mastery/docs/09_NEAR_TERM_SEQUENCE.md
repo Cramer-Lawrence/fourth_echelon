@@ -6,9 +6,11 @@ The opening sequence is intentionally cumulative.
 
 The purpose is not simply to cover a list of systems topics. It is to begin teaching the student how to expose hidden behavior, collect evidence, and turn understanding into useful capability.
 
-Challenge 01 already exists in full under `challenges/`.
+Challenges 01 and 02 now exist in full under `challenges/`. Challenge 01 was completed on 2026-08-25; Challenge 02 is the active next assignment.
 
 ## Challenge 01 — It Compiles, But It Won't Build
+
+**Status:** Completed 2026-08-25 — first-pass assessment: **Solid**
 
 **Modes:** Investigate + Debug
 
@@ -24,16 +26,18 @@ The deeper purpose is to stop treating "the build" as a single opaque operation.
 
 ## Challenge 02 — What Did My Program Actually Do?
 
-**Mode:** Investigate
+**Status:** Active next challenge — full assignment in `challenges/Challenge_02_What_Did_My_Program_Actually_Do.md`
 
-Take the executable from Challenge 01 and make it perform observable OS work.
+**Modes:** Investigate + Research
 
-Use Process Monitor and related tools to investigate file access, DLL loading, process startup, unexpected OS activity, and what happens around the student's own code.
+Follow the successfully linked executable across the runtime boundary. Use Process Monitor, Process Explorer, and static binary evidence to reconstruct one process lifetime, distinguish executable state from process state, compare static dependencies with runtime-loaded modules, perform a differential launch-context experiment, and correlate a controlled filesystem side effect with OS events.
+
+Challenge 01 performance was strong, so this assignment intentionally prescribes fewer exact commands and requires more independent filter design and evidence interpretation.
 
 Bridge:
 
 ```text
-Executable → Process → Operating System
+Executable → Process → Threads / Modules / OS activity → Exit
 ```
 
 ## Challenge 03 — Build Your First Real Tool

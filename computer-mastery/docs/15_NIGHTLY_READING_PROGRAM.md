@@ -24,11 +24,11 @@ The library should be re-verified during annual curriculum resets.
 
 ## Core Open Library
 
-### Introduction to Computer Systems — XJTU ICS
+### Introduction to Computer Systems — XJTU ICS (Optional Secondary)
 
 https://xjtu-ics.github.io/textbook/
 
-Actively maintained open systems textbook covering program construction, data representation, architecture, assembly, memory, linking, exceptions, virtual memory, and systems topics. CC BY-SA 4.0 with source available on GitHub.
+Useful open systems material, but **not part of the required English-first reading spine**. Use only when language/access is comfortable or when a translated/English section is clearly available. Do not make progress depend on this resource.
 
 ### Computer Organization — OpenALG / University System of Georgia
 
@@ -126,13 +126,21 @@ Read the indicated material for ~15 minutes each night. The week numbers are seq
 
 ### Weeks 1–6 — How Programs Become Machine Activity
 
-**Primary:** Introduction to Computer Systems — XJTU ICS
+**Primary, English-first:** Microsoft Learn + Sysinternals documentation selected to match the active challenge.
 
-Read the sections on programs and systems, program construction, representation, hardware/software interface, stack/functions, and binary interfaces in sequence.
+For the compilation/linking opening, prioritize the official MSVC material on translation phases, compilation without linking, linking, preprocessing output, and assembly listings. For the process/runtime transition, use the official Windows process/thread overview and Sysinternals Process Monitor documentation.
+
+Current process/runtime readings:
+
+- About Processes and Threads: https://learn.microsoft.com/en-us/windows/win32/procthread/about-processes-and-threads
+- Process Monitor: https://learn.microsoft.com/en-us/sysinternals/downloads/procmon
+- Dynamic-link library search order (when runtime module resolution becomes relevant): https://learn.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-search-order
 
 **Secondary:** Computer Organization — OpenALG
 
-Use the chapters on binary number formats, CPU organization, instruction-set architecture, assembly, pipeline, memory, and virtual memory when you want a second explanation.
+Use the chapters on binary number formats, CPU organization, instruction-set architecture, assembly, pipeline, memory, and virtual memory when you want a broader systems explanation beneath the Microsoft-specific toolchain/runtime material.
+
+**Optional secondary:** XJTU ICS may be used only when its language/access is comfortable; it is no longer a required primary source.
 
 **Sunday recall:** Explain one layer below the code you wrote that week.
 

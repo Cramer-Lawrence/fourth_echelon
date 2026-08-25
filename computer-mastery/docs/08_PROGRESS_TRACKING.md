@@ -21,9 +21,9 @@ Use:
 
 | Domain | Topic | Status | Evidence | Last Reviewed | Notes |
 |---|---|---|---|---|---|
-| Build Systems | Compilation vs Linking | Introduced | Challenge 01 | | |
-| Binaries | Symbols | Introduced | Challenge 01 | | |
-| OS | Processes | Not Started | | | |
+| Build Systems | Compilation vs Linking | Working Knowledge | Challenge 01 | 2026-08-25 | Compiled separately, manually linked, reproduced and explained two linker failure modes. |
+| Binaries | Symbols and Name Mangling | Working Knowledge | Challenge 01 | 2026-08-25 | Correlated mangled symbols across DUMPBIN, linker errors, and generated assembly. |
+| OS | Processes | Introduced | Challenge 02 | 2026-08-25 | Next active challenge follows the executable into Windows process/runtime behavior. |
 | Memory | Virtual Memory | Not Started | | | |
 | Networking | TCP/IP | Not Started | | | |
 | Security | Threat Modeling | Not Started | | | |
@@ -38,9 +38,10 @@ Examples:
 
 | Capability | Level | Evidence | Last Exercised | Notes |
 |---|---|---|---|---|
-| Inspect object-file symbols | Emerging | Challenge 01 | | |
-| Diagnose linker failures from evidence | Emerging | Challenge 01 | | |
-| Observe process behavior | Not Started | | | |
+| Inspect object-file symbols | Usable | Challenge 01 | 2026-08-25 | Can distinguish definitions from UNDEF references and correlate symbols across objects. |
+| Diagnose linker failures from evidence | Usable | Challenge 01 | 2026-08-25 | Proved omitted-object and mismatched-symbol failures from raw evidence. |
+| Correlate source, symbols, and assembly | Emerging | Challenge 01 | 2026-08-25 | Connected C++ call → mangled symbol → object table → assembly call. |
+| Observe process behavior | Emerging | Challenge 02 | 2026-08-25 | Active next capability. |
 | Compare machine environments | Not Started | | | |
 | Trace network traffic | Not Started | | | |
 | Verify file integrity | Not Started | | | |
@@ -54,6 +55,12 @@ Suggested capability levels:
 - Deep
 
 **Composable** means the capability can be reused naturally as part of larger tools or investigations.
+
+
+## Current Challenge State
+
+- **Challenge 01 — It Compiles, But It Won't Build:** Completed 2026-08-25. Assessment: **Solid** for intended first-pass depth. Detailed completion record: `logs/Challenge_01_Completion_2026-08-25.md`.
+- **Challenge 02 — What Did My Program Actually Do?:** Active next challenge. Full assignment: `challenges/Challenge_02_What_Did_My_Program_Actually_Do.md`.
 
 ## Challenge Log
 
